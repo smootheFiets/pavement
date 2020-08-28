@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+	 author="smootheFiets (combo boxes copied from NL-Fiets.xml by Dick van den Hoven, Allroads, AdVerburg)"
+	 version="0.1_2020-07-10"
+	 shortdescription="Pavement"
+	 description="JOSM preset to quickly adjust highway tags surface, smoothness, cycleway">
+
+  <group name="Pavement" >
+    <item name="state_of_the_road"
+	  type="way,closedway">
+      <label text="Set surface and smoothness in the dropdown-menus below" />
+      <combo key="surface" text="Surface" nl.text="Wegoppervlak" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,fine_gravel,gravel,pebblestone,compacted,grass_paver,grass,sand,sett,ground" nl.display_values="verhard,onverhard,asfalt,beton,metaal,hout,klinkers/tegels,kinderkopjes,half verhard,grind,veldkeien,aangestampt,graskeien,gras,zand,natuursteen,grond" default=""/>
+      <combo key="smoothness" text="smoothness" nl.text="Toestand van de weg" values="excellent,good,intermediate,bad,very_bad" nl.display_values="heel goed (Inline-Skates/Skateboard),goed (Racefietsen),middelmatig (Normale fietsen),slecht (Trekkingfiets),zeer slecht (Mountainbike)" default="" />
+    </item>
+    <item name="Cycle lane"
+	  type="way,closedway">
+      <label text="Is there a cycle lane?" />
+      <combo key="cycleway" text="Cycleway"
+	     values="no,shared_lane,lane"
+	     nl.display_values="geen,fietssuggestiestrook,fietsstrook"
+	     default="no" />
+    </item>
+    <item name="Jut"
+	  type="way,closedway">
+      <key key="surface" value="asphalt" />
+      <key key="smoothness" value="good" />
+    </item>
+    <item name="Beton OK"
+	  type="way,closedway">
+      <key key="surface" value="concrete" />
+      <key key="smoothness" value="good" />
+    </item>
+    <item name="Rumpelsteine"
+	  type="way,closedway">
+      <key key="surface" value="paving_stones" />
+      <key key="smoothness" value="intermediate" />
+    </item>
+    <item name="Gras"
+	  type="way,closedway">
+      <key key="surface" value="grass" />
+      <key key="smoothness" value="bad" />
+    </item>
+    <item name="Schelpenpadje OK"
+	  type="way,closedway">
+      <key key="surface" value="fine_gravel" />
+      <key key="smoothness" value="intermediate" />
+    </item>
+    <item name="Schelpenpadje slecht"
+	  type="way,closedway">
+      <key key="surface" value="fine_gravel" />
+      <key key="smoothness" value="bad" />
+    </item>
+    <item name="excellent"
+	  type="way,closedway">
+      <key key="smoothness" value="excellent" />
+    </item>
+    <item name="good"
+	  type="way,closedway">
+      <key key="smoothness" value="good" />
+    </item>
+    <item name="intermediate"
+	  type="way,closedway">
+      <key key="smoothness" value="intermediate" />
+    </item>
+  </group>
+</presets>
