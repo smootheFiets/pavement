@@ -40,7 +40,6 @@
       <key key="surface" value="grass" />
       <key key="smoothness" value="bad" />
     </item>
-    </item>
     <item name="Schelpenpadje OK"
 	  type="way,closedway">
       <key key="surface" value="fine_gravel" />
@@ -50,6 +49,7 @@
 	  type="way,closedway">
       <key key="surface" value="fine_gravel" />
       <key key="smoothness" value="bad" />
+    </item>
     <item name="excellent"
 	  type="way,closedway">
       <key key="smoothness" value="excellent" />
