@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-  author="smootheFiets (combo boxes copied from NL-Fiets.xml by Dick van den Hoven, Allroads, AdVerburg)"
-  version="0.1_2020-07-10"
-  shortdescription="Pavement"
-  description="JOSM preset to quickly adjust highway tags surface, smoothness, cycleway">
+	 author="smootheFiets (combo boxes copied from NL-Fiets.xml by Dick van den Hoven, Allroads, AdVerburg)"
+	 version="0.1_2020-07-10"
+	 shortdescription="Pavement"
+	 description="JOSM preset to quickly adjust highway tags surface, smoothness, cycleway">
 
   <group name="Pavement" >
     <item name="state_of_the_road"
