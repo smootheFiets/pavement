@@ -62,5 +62,19 @@
 	  type="way,closedway">
       <key key="smoothness" value="intermediate" />
     </item>
+    <item name="Panzerplatten"
+	  type="way,closedway">
+      <key key="surface" value="concrete_plates" />
+      <key key="smoothness" value="intermediate" />
+      <key key="width" value="1.5" />
+      <key key="segregated" value="no" />
+    </item>
+    <item name="Autobahn"
+	  type="way,closedway">
+      <key key="surface" value="asphalt" />
+      <key key="smoothness" value="good" />
+      <key key="width" value="2.5" />
+      <key key="lanes" value="2" />
+    </item>
   </group>
 </presets>
