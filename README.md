@@ -1,5 +1,5 @@
 # pavement
-Set of JOSM presets designed to quickly adjust highway tags surface, smoothness, and cycleway.
+Set of JOSM presets designed to quickly adjust highway tags surface, smoothness, and cycleway.  The one-click shortcuts below are for personal use by the author; their names probably don't make much sense to anyone else.  Sorry for that! (but feel free to adapt to your own needs)
 
 This file provides two main presets:
 * "state_of_the_road" with drop-down menus for surface and smoothness.
@@ -12,6 +12,8 @@ Some frequently-used combinations of surface and smoothness are provided as sepa
 * Gras: surface=grass, smoothness=bad
 * Schelpenpadje OK: surface=fine_gravel, smoothness=intermediate
 * Schelpenpadje slecht: surface=fine_gravel, smoothness=bad
+* Panzerplatten: concrete_plates intermediate, width=1.5, segregated=no (standard on G13 fietspaden)
+* Autobahn: asphalt, good, lanes=2, width=2.5 (standard G12a)
 
 ... plus three non-interactive smoothness presets:
 * excellent
@@ -20,6 +22,7 @@ Some frequently-used combinations of surface and smoothness are provided as sepa
 
 ## Version history
 * 0.1_2020-07-10: first version, uploaded on Github on 2020-08-28 (private release)
+* 0.2_2020-09-11: add "Panzerplatten" and "Autobahn"
 
 ## Author
 smootheFiets
