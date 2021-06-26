@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 	 author="smootheFiets (combo boxes copied from NL-Fiets.xml by Dick van den Hoven, Allroads, AdVerburg)"
-	 version="0.1_2020-07-10"
+	 version="0.3_2021-06-26"
 	 shortdescription="Pavement"
 	 description="JOSM preset to quickly adjust highway tags surface, smoothness, cycleway">
 
@@ -64,7 +64,7 @@
     </item>
     <item name="Panzerplatten"
 	  type="way,closedway">
-      <key key="surface" value="concrete_plates" />
+      <key key="surface" value="concrete:plates" />
       <key key="smoothness" value="intermediate" />
       <key key="width" value="1.5" />
       <key key="segregated" value="no" />

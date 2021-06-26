@@ -23,6 +23,7 @@ Some frequently-used combinations of surface and smoothness are provided as sepa
 ## Version history
 * 0.1_2020-07-10: first version, uploaded on Github on 2020-08-28 (private release)
 * 0.2_2020-09-11: add "Panzerplatten" and "Autobahn"
+* 0.3_2021-06-26: hot fix concrete_plates --> concrete:plates
 
 ## Author
 smootheFiets
